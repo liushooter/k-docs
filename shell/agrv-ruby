@@ -1,0 +1,16 @@
+#!/usr/bin/env ruby
+ARGV.each do |value|
+  puts value
+end
+
+argument = ARGV.first
+
+if argument
+  env, val = argument.split('=')
+
+  puts env
+
+  puts val
+end
+
+# ./agrv-ruby

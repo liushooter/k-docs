@@ -1,0 +1,15 @@
+if [ "$1" == "staging" ]; then
+  echo "staging"
+fi
+
+if [ "$1" == "develop" ]; then
+  echo "develop"
+fi
+
+if [ "$1" == "" ]; then
+  echo "邹倩雯"
+fi
+
+ # sh agrv-shell staging
+
+ # ./agrv-shell staging
