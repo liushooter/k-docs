@@ -1,4 +1,11 @@
 ```
+lsb_release -a
+
+# linux
+```
+---
+
+```
 lsof -i :3000
 lsof -i @127.0.0.1
 netstat -nap|grep port
